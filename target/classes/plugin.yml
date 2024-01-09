@@ -1,0 +1,6 @@
+main: de.test.plugin.Main
+name: TestPlugin
+version: 1.0.0
+author: xxFLORII
+
+load: STARTUP
