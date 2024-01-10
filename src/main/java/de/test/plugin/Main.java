@@ -16,6 +16,5 @@ public class Main extends Plugin implements Listener {
     @EventHandler
     public void onServerStart(ServerStartEvent event) {
         BedrockCloud.getLogger().info("server started");
-        System.out.println(event.getServer().getServerName());
     }
 }
