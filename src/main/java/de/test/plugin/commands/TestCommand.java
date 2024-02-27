@@ -1,6 +1,6 @@
 package de.test.plugin.commands;
 
-import com.bedrockcloud.bedrockcloud.BedrockCloud;
+import com.bedrockcloud.bedrockcloud.Cloud;
 import com.bedrockcloud.bedrockcloud.utils.command.Command;
 
 public class TestCommand extends Command {
@@ -10,6 +10,6 @@ public class TestCommand extends Command {
 
     @Override
     public void onCommand(String[] args) {
-        BedrockCloud.getLogger().info("command is working");
+        Cloud.getLogger().info("Test command executed");
     }
 }
